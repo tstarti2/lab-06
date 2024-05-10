@@ -1,5 +1,5 @@
 // Project: CIT 281 Lab 6
-// Author: Tyler Startin
+// Author: tstarti2
 
 // create a Book class
 class Book {
