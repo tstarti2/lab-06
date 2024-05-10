@@ -41,13 +41,12 @@ class Library {
 }
 
 // test library class
-
-const library = new Library("New york Times Best Seller List");
+const library = new Library('New york Times Best Seller List')
 
 // create a book
-const atomicHabits = new Book('Atomic Habits', 'James Clear', '10/16/2018');
+const atomicHabits = new Book('Atomic Habits', 'James Clear', '10/16/2018')
 
 // add book to library and show library contents
-library.addBook(atomicHabits);
-console.log(`Book Count: ${library.count}`);
-library.listBooks();
+library.addBook(atomicHabits)
+console.log(`Book Count: ${library.count}`)
+library.listBooks()
